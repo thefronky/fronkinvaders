@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fronk Space Invaders</title>
+    <style>
+        body { margin: 0; overflow: hidden; text-align: center; background: black; }
+        canvas { display: block; margin: auto; }
+        button { position: absolute; bottom: 20px; font-size: 20px; padding: 10px; }
+        #leftBtn { left: 20px; }
+        #rightBtn { right: 20px; }
+        #fireBtn { left: 50%; transform: translateX(-50%); }
+    </style>
+</head>
+<body>
+    <canvas id="gameCanvas"></canvas>
+    <button id="leftBtn">⬅️</button>
+    <button id="rightBtn">➡️</button>
+    <button id="fireBtn">🔥</button>
+    
+    <!-- This is where your JavaScript file is linked -->
+    <script src="game.js"></script>
+</body>
+</html>
